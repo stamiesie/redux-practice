@@ -4,8 +4,8 @@ import loggedReducer from './isLogged';
 
 const rootReducers = combineReducers({
   // ES6 shorthand is just counterReducer
-  counter_booger: counterReducer,
-  isLogged_booger: loggedReducer,
+  counterReducer,
+  loggedReducer,
 });
 
 export default rootReducers;
